@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BCUnit.Framework.SDK/1.0.0": {
+        "runtime": {
+          "BCUnit.Framework.SDK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BCUnit.Framework.SDK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

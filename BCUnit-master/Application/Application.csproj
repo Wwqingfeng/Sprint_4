@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BCUnit.Engine\BCUnit.Engine.csproj" />
+    <ProjectReference Include="..\BCUnit.Framework.SDK\BCUnit.Framework.SDK.csproj" />
+  </ItemGroup>
+
+</Project>

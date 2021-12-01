@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BCUnit.Assertions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BCUnit.Assertions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BCUnit.Assertions.dll": {}
+        }
+      },
+      "BCUnit.Framework.SDK/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BCUnit.Framework.SDK.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BCUnit.Framework.SDK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BCUnit.Assertions/1.0.0": {
+      "type": "project",
+      "path": "../BCUnit.Assertions/BCUnit.Assertions.csproj",
+      "msbuildProject": "../BCUnit.Assertions/BCUnit.Assertions.csproj"
+    },
+    "BCUnit.Framework.SDK/1.0.0": {
+      "type": "project",
+      "path": "../BCUnit.Framework.SDK/BCUnit.Framework.SDK.csproj",
+      "msbuildProject": "../BCUnit.Framework.SDK/BCUnit.Framework.SDK.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BCUnit.Assertions >= 1.0.0",
+      "BCUnit.Framework.SDK >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\14256\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\14256\\source\\repos\\BCUnit\\BCUnit.Engine\\BCUnit.Engine.csproj",
+      "projectName": "BCUnit.Engine",
+      "projectPath": "C:\\Users\\14256\\source\\repos\\BCUnit\\BCUnit.Engine\\BCUnit.Engine.csproj",
+      "packagesPath": "C:\\Users\\14256\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\14256\\source\\repos\\BCUnit\\BCUnit.Engine\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\14256\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\14256\\source\\repos\\BCUnit\\BCUnit.Assertions\\BCUnit.Assertions.csproj": {
+              "projectPath": "C:\\Users\\14256\\source\\repos\\BCUnit\\BCUnit.Assertions\\BCUnit.Assertions.csproj"
+            },
+            "C:\\Users\\14256\\source\\repos\\BCUnit\\BCUnit.Framework.SDK\\BCUnit.Framework.SDK.csproj": {
+              "projectPath": "C:\\Users\\14256\\source\\repos\\BCUnit\\BCUnit.Framework.SDK\\BCUnit.Framework.SDK.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BCUnit.Engine/1.0.0": {
+        "dependencies": {
+          "BCUnit.Assertions": "1.0.0",
+          "BCUnit.Framework.SDK": "1.0.0"
+        },
+        "runtime": {
+          "BCUnit.Engine.dll": {}
+        }
+      },
+      "BCUnit.Assertions/1.0.0": {
+        "runtime": {
+          "BCUnit.Assertions.dll": {}
+        }
+      },
+      "BCUnit.Framework.SDK/1.0.0": {
+        "runtime": {
+          "BCUnit.Framework.SDK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BCUnit.Engine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCUnit.Assertions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCUnit.Framework.SDK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
